@@ -1,0 +1,53 @@
+#div1,
+#div2,
+#div3,
+#div4,
+#div5,
+#div6,
+#div7,
+#div8,
+#div9 {
+	border: 1px solid black;
+	height: 150px;
+	width: 150px;
+	float: left;
+	font-size: 12 0px;
+	text-align: center;
+}
+
+#div1,
+#div4,
+#div7 {
+	clear: left;
+	border-left: none;
+}
+
+#div3,
+#div6,
+#div9 {
+	border-right: none;
+}
+
+#div1,
+#div2,
+#div3 {
+	border-top: none;
+}
+
+#div7,
+#div8,
+#div9 {
+	border-bottom: none;
+}
+
+#main {
+	margin-left: 450px;
+	margin-top: 50px;
+}
+
+#content {
+	color: brown;
+	font-size: 45px;
+	margin-left: 550px;
+	margin-top: 20px;
+}
